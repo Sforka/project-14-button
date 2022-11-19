@@ -28,7 +28,7 @@
   font-weight: 700;
 }
 
-.Shop_now {
+.button-header {
   width: 102px;
   height: 46px;
   background-color: #86e543;
@@ -37,12 +37,12 @@
   line-height: 1;
   color: black;
 }
-.Shop_now:hover {
+.button-header:hover {
   -webkit-box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
           box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
 
-.Start_shopping {
+.button-shopping {
   width: 306px;
   height: 70px;
   background-color: #86e543;
@@ -51,12 +51,12 @@
   text-transform: uppercase;
   color: #01383a;
 }
-.Start_shopping:hover {
+.button-shopping:hover {
   -webkit-box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
           box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
 
-.View_all {
+.button-view {
   padding: 16px 48px;
   width: 195px;
   height: 65px;
@@ -65,12 +65,12 @@
   line-height: 1.17;
   color: #01383a;
 }
-.View_all:hover {
+.button-view:hover {
   -webkit-box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), 0px 4px 10px rgba(134, 229, 67, 0.1);
           box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), 0px 4px 10px rgba(134, 229, 67, 0.1);
 }
 
-.Buy {
+.button-buy {
   padding: 16px 20px;
   width: 306px;
   height: 70px;
@@ -80,12 +80,12 @@
   text-transform: uppercase;
   color: #01383a;
 }
-.Buy:hover {
+.button-buy:hover {
   -webkit-box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
           box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
 
-.ADD {
+.button-add {
   padding: 16px 20px;
   width: 306px;
   height: 70px;
@@ -95,12 +95,12 @@
   text-transform: uppercase;
   color: #86e543;
 }
-.ADD:hover {
+.button-add:hover {
   -webkit-filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
           filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
 }
 
-.SEND {
+.button-send {
   padding: 16px 20px;
   width: 306px;
   height: 70px;
@@ -110,12 +110,12 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.SEND:hover {
+.button-send:hover {
   -webkit-filter: drop-shadow(0px 4px 10px rgba(255, 255, 255, 0.1)) drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.4));
           filter: drop-shadow(0px 4px 10px rgba(255, 255, 255, 0.1)) drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.4));
 }
 
-.filter {
+.button-filter {
   width: 168px;
   height: 51px;
   padding: 16px 48px;
@@ -126,22 +126,22 @@
   line-height: 1.1875;
   color: #86e543;
 }
-.filter:hover {
+.button-filter:hover {
   -webkit-filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
           filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
 }
-.filter:active {
+.button-filter:active {
   background: #86e543;
   color: #01383a;
   -webkit-box-shadow: 0px 4px 10px rgba(134, 229, 67, 0.1), 0px 4px 20px rgba(134, 229, 67, 0.4);
           box-shadow: 0px 4px 10px rgba(134, 229, 67, 0.1), 0px 4px 20px rgba(134, 229, 67, 0.4);
 }
 
-.menu {
+.button-menu {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  padding: 8px 0px;
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -150,11 +150,11 @@
   color: #ffffff;
   border-bottom: 1px solid transparent;
 }
-.menu:hover {
+.button-menu:hover {
   border-bottom: 1px solid #86e543;
 }
 
-.Cool {
+.button-like {
   padding: 16px;
   gap: 8px;
   width: 171px;
@@ -165,12 +165,12 @@
   text-transform: uppercase;
   color: #01383a;
 }
-.Cool:active {
+.button-like:active {
   -webkit-box-shadow: 0px 4px 10px rgba(134, 229, 67, 0.1), 0px 4px 20px rgba(134, 229, 67, 0.4);
           box-shadow: 0px 4px 10px rgba(134, 229, 67, 0.1), 0px 4px 20px rgba(134, 229, 67, 0.4);
 }
 
-.bad {
+.button-dislike {
   padding: 16px;
   gap: 8px;
   width: 171px;
@@ -181,7 +181,7 @@
   text-transform: uppercase;
   color: #86e543;
 }
-.bad:active {
+.button-dislike:active {
   -webkit-filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
           filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
 }/*# sourceMappingURL=main.css.map */
