@@ -1,0 +1,137 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 3022px;
+  height: 1565px;
+  background: #01383a;
+}
+
+.button {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.Shop_now {
+  width: 102px;
+  height: 46px;
+  background-color: #86e543;
+  padding: 16px 20px;
+  border: transparent;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: black;
+}
+.Shop_now:hover {
+  box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.Start_shopping {
+  width: 306px;
+  height: 70px;
+  background-color: #86e543;
+  border: transparent;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #01383a;
+}
+.Start_shopping:hover {
+  box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.View_all {
+  padding: 16px 48px;
+  width: 195px;
+  height: 65px;
+  background-color: #ffffff;
+  border: transparent;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  color: #01383a;
+}
+.View_all:hover {
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5), 0px 4px 10px rgba(134, 229, 67, 0.1);
+}
+
+.Buy {
+  padding: 16px 20px;
+  width: 306px;
+  height: 70px;
+  background: #86e543;
+  border: transparent;
+  border-radius: 16px;
+  font-size: 32px;
+  line-height: 1.1875;
+  text-transform: uppercase;
+  color: #01383a;
+}
+.Buy:hover {
+  box-shadow: 0px 8px 20px rgba(134, 229, 67, 0.5), 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.ADD {
+  padding: 16px 20px;
+  width: 306px;
+  height: 70px;
+  background: transparent;
+  border: 1px solid #86e543;
+  border-radius: 16px;
+  font-size: 32px;
+  line-height: 1.1875;
+  text-transform: uppercase;
+  color: #86e543;
+}
+.ADD:hover {
+  filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
+}
+
+.SEND {
+  padding: 16px 20px;
+  width: 306px;
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1875;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.SEND:hover {
+  filter: drop-shadow(0px 4px 10px rgba(255, 255, 255, 0.1)) drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.4));
+}
+
+.filter {
+  width: 168px;
+  height: 51px;
+  padding: 16px 48px;
+  background-color: transparent;
+  background: #86e543;
+  border: 1px solid #86e543;
+  filter: drop-shadow(0px 4px 4px rgba(134, 229, 67, 0.2));
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: #86e543;
+}
+.filter:hover {
+  filter: drop-shadow(0px 4px 10px rgba(134, 229, 67, 0.1)) drop-shadow(0px 4px 20px rgba(134, 229, 67, 0.4));
+}
+.filter:focus {
+  background: #86e543;
+  box-shadow: 0px 4px 10px rgba(134, 229, 67, 0.1), 0px 4px 20px rgba(134, 229, 67, 0.4);
+}/*# sourceMappingURL=main.css.map */
